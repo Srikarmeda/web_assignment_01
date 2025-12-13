@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>User Registration Form</h1>
+        <form action="result.html" method="get">
+            <div>
+                <label for="username">Username</label>
+                <input name="username" id="username" type="text" required>
+            </div>
+            <div>
+                <label for="psd">password</label>
+                <input name="psd" id="psd" type="password" required>
+            </div>
+            <div>
+                <label for="dob">DOB</label>
+                <input name="dob" id="dob" type="date" required>
+            </div>
+            <div>
+                <label for="phn">Phone Number</label>
+                <input name="phn" id="phn" type="tel" required>
+            </div>
+            <div>
+                <label for="mail">Email ID</label>
+                <input name="mail" id="mail" type="email" required>
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input name="age" id="age" type="number" min="18" max="85" required>
+            </div>
+            <h4>Choose your state</h4>
+            <select>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="MP">Madhya pradesh</option>
+            </select>
+            <h4>Gender</h4>
+            <div>
+                <input name="gender" id="gender" type="radio" value="Male" required>
+                <label for="gender">Male</label>
+            </div>
+            <div>
+                <input name="gender" id="gender" type="radio" value="Female" required>
+                <label for="gender">Female</label>
+            </div>
+            <div>
+                <input name="gender" id="gender" type="radio" value="Other" required>
+                <label for="gender">Other</label>
+            </div>
+            <h4>Educational Qualifications</h4>
+            <div>
+                <input name="edq" id="edq" type="checkbox" value="Secondary School">
+                <label for="edq">Secondary School</label>
+            </div>
+            <div>
+                <input name="edq" id="edq" type="checkbox" value="UG">
+                <label for="edq">Under Graduate</label>
+            </div>
+            <div>
+                <input name="edq" id="edq" type="checkbox" value="PG">
+                <label for="edq">Post Graduate</label>
+            </div>
+            <div>
+                <input name="edq" id="edq" type="checkbox" value="other">
+                <label for="edq">Other</label>
+            </div>
+            <div>
+                <button type="submit">SUBMIT</button>
+                <button type="reset">RESET</button>
+            </div>
+        </form>
+    </body>
+</html>
